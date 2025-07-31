@@ -28,7 +28,7 @@ Apache
 
 MySQL
 
-Go to http://localhost/phpmyadmin/, create a new database (e.g., student_db), and execute the SQL in schema.sql.
+
 
 📲 Flutter App
 Make sure the Flutter SDK is installed and in your system PATH.
@@ -43,9 +43,3 @@ Edit
 flutter pub get
 flutter create .   # Generates platform-specific folders
 flutter run        # Launch the app on your emulator/device
-📝 Notes
-For Android emulators, use http://10.0.2.2 to access the local PHP server.
-
-For real devices, replace the IP in main.dart with your PC's local IP address (e.g., 192.168.x.x).
-
-Make sure your mobile device and PC are on the same network.
